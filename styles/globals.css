@@ -1,26 +1,16 @@
-html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-}
-
-a {
-  color: inherit;
-  text-decoration: none;
-}
-
+@import url('https://fonts.googleapis.com/css2?family=Alex+Brush&family=DM+Sans&family=Fira+Sans&family=Josefin+Sans:ital@1&family=Kanit:wght@300&family=Oleo+Script+Swash+Caps&family=Poppins:wght@300;400&family=Roboto:wght@300&display=swap');
 * {
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
+  scroll-behavior: smooth;
+  font-family: 'DM Sans', sans-serif;
 }
 
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
-  body {
-    color: white;
-    background: black;
-  }
+body {
+  font-size: 1.6rem;
+}
+
+html {
+  font-size: 62.5%;
 }

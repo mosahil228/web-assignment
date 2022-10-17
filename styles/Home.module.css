@@ -1,129 +1,600 @@
-.container {
-  padding: 0 2rem;
+header .nav4 {
+  background-color: #F7F7F7;
+  height: 38px;
+  width: 100%;
 }
-
-.main {
-  min-height: 100vh;
-  padding: 4rem 0;
-  flex: 1;
+header .nav4 .nav4Item {
+  width: 100%;
+  max-width: 1500px;
+  margin: 0 auto;
+  padding: 0 5.5rem;
+  height: 100%;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
+  gap: 0.4rem;
   align-items: center;
 }
-
-.footer {
+header .nav3 {
+  width: 100%;
+  height: 30px;
+  background-color: #000000;
+}
+header .nav3 .nav3Item {
   display: flex;
-  flex: 1;
-  padding: 2rem 0;
-  border-top: 1px solid #eaeaea;
+  height: 100%;
   justify-content: center;
   align-items: center;
+  gap: 2.5rem;
 }
-
-.footer a {
+header .nav3 .nav3Item p {
+  font-size: 1.4rem;
+  color: #fff;
+  letter-spacing: 0.03rem;
+}
+header .nav3 .nav3Item p span {
+  height: 100%;
+  vertical-align: middle;
+}
+header .nav3 .nav3Item p span svg {
+  color: #fff;
+}
+header .nav1 {
+  width: 100%;
+  height: 30px;
   display: flex;
-  justify-content: center;
+  border-bottom: 0.75px solid #E5E5E5;
+  max-width: 1500px;
+  margin: 0 auto;
+}
+header .nav1 .nav1Item {
+  padding: 0 16.5rem;
+  height: 100%;
+  display: flex;
   align-items: center;
-  flex-grow: 1;
+  gap: 2rem;
 }
-
-.title a {
-  color: #0070f3;
-  text-decoration: none;
+header .nav1 .nav1Item p {
+  font-size: 1.4rem;
 }
-
-.title a:hover,
-.title a:focus,
-.title a:active {
-  text-decoration: underline;
+header .nav1 .nav1Item p span {
+  margin: 0 0.5rem;
+  position: relative;
+  top: 0.3rem;
 }
-
-.title {
-  margin: 0;
-  line-height: 1.15;
-  font-size: 4rem;
+header .nav2 {
+  width: 100%;
+  max-width: 1500px;
+  margin: 0 auto;
+  height: 60px;
 }
-
-.title,
-.description {
+header .nav2 .mainNav {
+  padding: 0 5.5rem;
+  display: flex;
+  height: 100%;
+  gap: 4.8rem;
+}
+header .nav2 .wd h1 {
+  font-size: 2.3rem;
+  font-weight: bolder;
+  color: #000000;
+}
+header .nav2 .nav2Item {
+  width: 100%;
+}
+header .nav2 .nav2Item .navMain {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 6rem;
+  height: 100%;
+}
+header .nav2 .nav2Item .navMain .navLeft {
+  display: flex;
+  height: 100%;
+}
+header .nav2 .nav2Item .navMain .navLeft ul {
+  display: flex;
+  gap: 4rem;
+  height: 100%;
+  align-items: center;
+}
+header .nav2 .nav2Item .navMain .navLeft ul .liColor {
+  color: #FA8158 !important;
+}
+header .nav2 .nav2Item .navMain .navLeft ul li {
+  list-style: none;
+  font-size: 1.6rem;
+  color: #000000;
+  font-weight: 500;
+  cursor: pointer;
+}
+header .nav2 .nav2Item .navMain .navRight {
+  display: flex;
+  height: 100%;
+}
+header .nav2 .nav2Item .navMain .navRight ul {
+  display: flex;
+  gap: 2.5rem;
+  height: 100%;
+  align-items: center;
+}
+header .nav2 .nav2Item .navMain .navRight ul .meter {
+  position: relative;
+}
+header .nav2 .nav2Item .navMain .navRight ul .meter span {
+  background: #FA8158;
+  width: 17px;
+  height: 17px;
+  border-radius: 50%;
+  position: absolute;
   text-align: center;
+  color: #fff;
+  font-size: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  top: -9px;
+  right: -9px;
+}
+header .nav2 .nav2Item .navMain .navRight ul li {
+  list-style: none;
+  font-size: 1.6rem;
+  color: #000000;
+  font-weight: bolder;
+  cursor: pointer;
+}
+header .nav2 .nav2Item .navMain .navRight ul li svg {
+  font-size: 2.2rem;
+  font-weight: bold;
 }
 
-.description {
-  margin: 4rem 0;
-  line-height: 1.5;
-  font-size: 1.5rem;
+.section {
+  margin-top: 10rem;
+  width: 100%;
 }
 
-.code {
-  background: #fafafa;
-  border-radius: 5px;
-  padding: 0.75rem;
-  font-size: 1.1rem;
-  font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
-    Bitstream Vera Sans Mono, Courier New, monospace;
+.section {
+  margin-top: 1rem !important;
 }
 
-.grid {
+.heroSection {
+  width: 100%;
+  max-width: 1500px;
+  margin: 0 auto;
+}
+.heroSection .heroDiv3 {
+  justify-content: space-between !important;
+}
+.heroSection .heroDiv2 {
+  margin: 0 5.5rem;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 8rem;
+}
+.heroSection .heroDiv2 .newSec {
+  width: 54.1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+.heroSection .heroDiv2 .newSec h1 {
+  color: #A0A0A0;
+  font-size: 2.4rem;
+}
+.heroSection .heroDiv2 .newSec h1:first-child {
+  color: #000000;
+  position: relative;
+}
+.heroSection .heroDiv2 .newSec h1:first-child::after {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 2px;
+  background-color: #000000;
+  left: 0;
+  bottom: -5px;
+}
+.heroSection .heroDiv4 {
+  margin: 0 5.5rem;
+  display: flex;
+  justify-content: space-between;
+}
+.heroSection .heroDiv4 .lCon4 svg {
+  font-size: 40px;
+  margin-bottom: 1rem;
+}
+.heroSection .heroDiv4 .lCon4 h3 {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+}
+.heroSection .heroDiv4 .lCon4 p {
+  max-width: 21.9rem;
+  color: #616161;
+  text-align: left;
+  font-size: 16px;
+  line-height: 26px;
+}
+.heroSection .heroDiv {
+  margin: 0 5.5rem;
+  gap: 5.5rem;
+  display: flex;
+}
+.heroSection .heroDiv .leftHero {
+  width: 54%;
+}
+.heroSection .heroDiv .leftHero .lCon h3 {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+}
+.heroSection .heroDiv .leftHero .lCon p {
+  margin-bottom: 4rem;
+  color: #616161;
+  text-align: left;
+  font-size: 16px;
+  line-height: 26px;
+}
+.heroSection .heroDiv .leftHero .image2 {
+  margin-top: 3rem;
+  display: flex;
+  justify-content: space-between;
+  gap: 3rem;
+}
+.heroSection .heroDiv .leftHero .image2 .img {
+  overflow: hidden;
+  width: 115px;
+  height: auto;
+}
+.heroSection .heroDiv .leftHero .image2 .img img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.heroSection .heroDiv .leftHero .image {
+  height: auto;
+  width: 100%;
+  overflow: hidden;
+}
+.heroSection .heroDiv .leftHero .image img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.heroSection .heroDiv .rightHero2 {
+  display: flex;
+  align-items: flex-end;
+  flex-direction: column;
+}
+.heroSection .heroDiv .rightHero {
+  width: 46%;
+}
+.heroSection .heroDiv .rightHero .rDivBox {
+  width: 49.4rem;
+  height: 5rem;
+  display: flex;
+  align-items: center;
+}
+.heroSection .heroDiv .rightHero .rDivBox:nth-child(odd) {
+  background-color: #F6F6F6;
+}
+.heroSection .heroDiv .rightHero .rDivBox .star {
+  display: flex;
+}
+.heroSection .heroDiv .rightHero .rDivBox .rDivBoxN {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+}
+.heroSection .heroDiv .rightHero .rDivBox .rDivBoxN p {
+  width: 40%;
+}
+.heroSection .heroDiv .rightHero .rDivBox .rDivBoxN span {
+  width: 60%;
+}
+.heroSection .heroDiv .rightHero .rDivBox p {
+  margin-right: 10rem;
+  margin-left: 2rem;
+  font-weight: bold;
+}
+.heroSection .heroDiv .rightHero .line {
+  background-color: #E5E5E5;
+  height: 0.92px;
+  width: 100%;
+}
+.heroSection .heroDiv .rightHero .r9 h2 {
+  margin: 3rem 0 2rem 0;
+}
+.heroSection .heroDiv .rightHero .r9 .r9B1 {
+  display: flex;
+  gap: 2rem;
+  margin-bottom: 2rem;
+}
+.heroSection .heroDiv .rightHero .r9 .r9B1 p {
+  font-size: 15px;
+  margin-bottom: 0.5rem;
+}
+.heroSection .heroDiv .rightHero .r9 .r9B1 p:last-child {
+  color: #616161;
+}
+.heroSection .heroDiv .rightHero .r9 .r9B1 svg {
+  font-size: 3.5rem;
+  font-weight: 100 !important;
+}
+.heroSection .heroDiv .rightHero .r8 {
+  margin: 3rem 0;
+  display: flex;
+  gap: 0.8rem;
+  align-items: center;
+}
+.heroSection .heroDiv .rightHero .r8 .r8B1 {
+  width: 12px;
+  height: 12px;
+  border: 1px solid #3DAB25;
+  background-color: rgba(61, 171, 37, 0.1);
+  border-radius: 50%;
+}
+.heroSection .heroDiv .rightHero .r8 .r8B2 {
+  font-size: 14px;
+  font-weight: bold;
+}
+.heroSection .heroDiv .rightHero .r8 .r8B3 {
+  width: 14px;
+  height: 14px;
+  font-weight: bold;
+  border: 1px solid #2E72D2;
+  color: #2E72D2;
+  font-size: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+.heroSection .heroDiv .rightHero .r7 {
+  margin-top: 3rem;
+}
+.heroSection .heroDiv .rightHero .r7 h2 {
+  font-size: 1.6rem;
+  margin-bottom: 1rem;
+}
+.heroSection .heroDiv .rightHero .r7 .r7B4 {
+  height: 4rem;
+  width: 4rem;
+  border-radius: 4px;
+  border: 1px solid #E5E5E5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+}
+.heroSection .heroDiv .rightHero .r7 .r7Btn1 {
+  width: 18.7rem;
+  height: 4rem;
   display: flex;
   align-items: center;
   justify-content: center;
-  flex-wrap: wrap;
-  max-width: 800px;
+  border-radius: 4px;
+  color: #fff;
+  font-weight: 600;
+  cursor: pointer;
+  background: radial-gradient(circle at 10% 20%, rgb(255, 131, 61) 0%, rgb(249, 183, 23) 90%);
 }
-
-.card {
-  margin: 1rem;
-  padding: 1.5rem;
+.heroSection .heroDiv .rightHero .r7 .r7Main {
+  display: flex;
+  gap: 2rem;
+}
+.heroSection .heroDiv .rightHero .r7 .r7Main .r7Btn {
+  width: 16.5rem;
+  height: 4rem;
+  display: flex;
+  justify-content: space-between;
+  overflow: hidden;
+}
+.heroSection .heroDiv .rightHero .r7 .r7Main .r7Btn .r7B1 {
+  height: 100%;
+  width: 4rem;
+  border: 1px solid #E5E5E5;
+  display: flex;
+  border-bottom-left-radius: 4px;
+  border-top-left-radius: 4px;
+  justify-content: center;
+  align-items: center;
+  font-size: 2.2rem;
+}
+.heroSection .heroDiv .rightHero .r7 .r7Main .r7Btn .r7B2 {
+  display: flex;
+  justify-content: center;
+  border-top: 1px solid #E5E5E5;
+  border-bottom: 1px solid #E5E5E5;
+  align-items: center;
+  font-size: 2.2rem;
+  width: 8.5rem;
+}
+.heroSection .heroDiv .rightHero .r7 .r7Main .r7Btn .r7B3 {
+  height: 4rem;
+  width: 4rem;
+  position: relative;
+  display: flex;
+  border-bottom-right-radius: 4px;
+  border-top-right-radius: 4px;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-size: 2.2rem;
+  background: radial-gradient(circle at 10% 20%, rgb(255, 131, 61) 0%, rgb(249, 183, 23) 90%);
+}
+.heroSection .heroDiv .rightHero .r6 {
+  margin-top: 3rem;
+}
+.heroSection .heroDiv .rightHero .r6 h2 {
+  margin-bottom: 1rem;
+}
+.heroSection .heroDiv .rightHero .r6 .r6Box {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.heroSection .heroDiv .rightHero .r6 .r6Box .r6L {
+  text-decoration: underline;
+  font-size: 1.4rem;
+}
+.heroSection .heroDiv .rightHero .r6 .r6Box .r6B {
+  width: 33px;
+  height: 33px;
+  border: 2px solid #E5E5E5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.heroSection .heroDiv .rightHero .r6 .r6Box .r6B p {
+  font-weight: bolder;
+  font-size: 14px;
+}
+.heroSection .heroDiv .rightHero .r6 h2 {
+  font-size: 1.6rem;
+}
+.heroSection .heroDiv .rightHero .r5 {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 3rem;
+}
+.heroSection .heroDiv .rightHero .r5 .rBox {
+  display: flex;
+  gap: 1.5rem;
+  margin-right: 28px;
+  align-items: center;
+}
+.heroSection .heroDiv .rightHero .r5 .rBox .rB1 {
+  width: 5.5rem;
+  height: 5.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #F6F6F6;
+  border: 1px solid #E5E5E5;
+  border-radius: 4px;
+}
+.heroSection .heroDiv .rightHero .r5 .rBox .rB1 h2 {
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+.heroSection .heroDiv .rightHero .r5 .rBox .rB1 p {
+  font-size: 1.4rem;
+}
+.heroSection .heroDiv .rightHero .r5 .rH1 h2 {
+  font-size: 2rem;
+  line-height: 3rem;
+}
+.heroSection .heroDiv .rightHero .r4 {
+  margin-bottom: 1rem;
+  display: flex;
+  justify-content: space-between;
+}
+.heroSection .heroDiv .rightHero .r4 h1 {
+  font-size: 2rem;
+}
+.heroSection .heroDiv .rightHero .r4 .rLine p {
+  font-size: 16px;
+}
+.heroSection .heroDiv .rightHero .r4 .rLine p span {
+  color: #3DAB25;
+  margin-left: 0.8rem;
+}
+.heroSection .heroDiv .rightHero .r4 .rLine .rL {
+  width: 34.7rem;
+  margin-bottom: 1rem;
+  background-color: #E5E5E5;
+  height: 7.38px;
+}
+.heroSection .heroDiv .rightHero .r4 .rLine .rL .rL1 {
+  height: 100%;
+  width: 25.8rem;
+  background: radial-gradient(circle at 10% 20%, rgb(255, 131, 61) 0%, rgb(249, 183, 23) 90%);
+}
+.heroSection .heroDiv .rightHero .r3 {
+  padding-bottom: 1.5rem;
+}
+.heroSection .heroDiv .rightHero .r3 .line {
+  background-color: #E5E5E5;
+  height: 0.92px;
+  width: 100%;
+}
+.heroSection .heroDiv .rightHero .r3 p {
+  color: #616161;
+  line-height: 2.6rem;
+  font-size: 1.8rem;
   text-align: left;
-  color: inherit;
-  text-decoration: none;
-  border: 1px solid #eaeaea;
-  border-radius: 10px;
-  transition: color 0.15s ease, border-color 0.15s ease;
-  max-width: 300px;
 }
-
-.card:hover,
-.card:focus,
-.card:active {
-  color: #0070f3;
-  border-color: #0070f3;
+.heroSection .heroDiv .rightHero .r2 {
+  display: flex;
+  gap: 2.5rem;
+  align-items: center;
+  padding-bottom: 1.2rem;
 }
-
-.card h2 {
-  margin: 0 0 1rem 0;
-  font-size: 1.5rem;
+.heroSection .heroDiv .rightHero .r2 .rMain {
+  display: flex;
+  position: relative;
 }
-
-.card p {
-  margin: 0;
-  font-size: 1.25rem;
-  line-height: 1.5;
+.heroSection .heroDiv .rightHero .r2 .rMain svg {
+  color: #DB4444;
+  font-size: 15px;
+  position: absolute;
+  left: -10px;
+  top: 3px;
 }
-
-.logo {
-  height: 1em;
-  margin-left: 0.5rem;
+.heroSection .heroDiv .rightHero .r2 .rMain .rBtn {
+  background-color: #FA8158;
+  z-index: 100;
+  color: #fff;
+  width: 60px;
+  height: 21px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 2px;
 }
-
-@media (max-width: 600px) {
-  .grid {
-    width: 100%;
-    flex-direction: column;
-  }
+.heroSection .heroDiv .rightHero .r2 .rMain .rBtn p {
+  font-size: 1.2rem;
 }
-
-@media (prefers-color-scheme: dark) {
-  .card,
-  .footer {
-    border-color: #222;
-  }
-  .code {
-    background: #111;
-  }
-  .logo img {
-    filter: invert(1);
-  }
+.heroSection .heroDiv .rightHero .r1 {
+  display: flex;
+  justify-content: space-between;
 }
+.heroSection .heroDiv .rightHero .r1 .share {
+  width: 34px;
+  height: 34px;
+  border: 2px solid #E5E5E5;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.heroSection .heroDiv .rightHero .r1 .share svg {
+  font-size: 2rem;
+  margin: 0.5rem;
+}
+.heroSection .heroDiv .rightHero .rightItems {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  padding-bottom: 1.2rem;
+}
+.heroSection .heroDiv .rightHero .rightItems .star {
+  display: flex;
+}
+.heroSection .heroDiv .rightHero .rightItems .star svg {
+  font-size: 14px;
+}
+.heroSection .heroDiv .rightHero h3 {
+  color: #A0A0A0;
+  font-size: 1.2rem;
+  font-weight: 700;
+  letter-spacing: 0.08rem;
+  padding-bottom: 1.2rem;
+}
+.heroSection .heroDiv .rightHero h1 {
+  font-size: 2.5rem;
+  letter-spacing: 0.05rem;
+  padding-bottom: 1.2rem;
+}/*# sourceMappingURL=Home.module.css.map */
